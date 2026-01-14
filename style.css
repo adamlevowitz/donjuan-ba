@@ -91,3 +91,16 @@ h2 {
 .hero-img {
   display: none;
 }
+
+.contact a {
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.contact a,
+.contact a:link,
+.contact a:visited {
+  color: rgba(255,255,255,0.7) !important;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
