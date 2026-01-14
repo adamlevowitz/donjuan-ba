@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
-
+you do ti @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background: url('DJArt.png') no-repeat left top;
@@ -19,12 +17,10 @@ body {
   text-align: center;
   padding: 2rem;
 }
-
 main {
   max-width: 400px;
   margin-right: 5%;
 }
-
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 4rem;
@@ -34,7 +30,6 @@ h1 {
   line-height: 1.1;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
 }
-
 h2 {
   font-family: 'Playfair Display', serif;
   font-size: 1.75rem;
@@ -44,18 +39,15 @@ h2 {
   color: #fff;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
-
 .date, .venue {
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-
 .venue {
   margin-bottom: 2rem;
 }
-
 .description {
   font-size: 1rem;
   color: rgba(255,255,255,0.85);
@@ -63,7 +55,6 @@ h2 {
   line-height: 1.6;
   font-style: italic;
 }
-
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
@@ -74,24 +65,19 @@ h2 {
   border-radius: 4px;
   margin-bottom: 2rem;
 }
-
 .btn:hover {
   background: #c62828;
 }
-
 .social a {
   color: rgba(255,255,255,0.7);
   text-decoration: none;
 }
-
 .social a:hover {
   color: #fff;
 }
-
 .hero-img {
   display: none;
 }
-
 .contact a {
   color: rgba(255,255,255,0.7);
   text-decoration: none;
@@ -103,4 +89,13 @@ h2 {
   color: rgba(255,255,255,0.7) !important;
   text-decoration: none;
   font-size: 1.1rem;
+}
+.video-container {
+  margin: 2rem 0;
+  width: 100%;
+}
+.video-container video {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 4px;
 }
