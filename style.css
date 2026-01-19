@@ -119,8 +119,8 @@ h2 {
   position: fixed;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);  /* Added this */
-  width: 65%;
+  transform: translateX(-50%);
+  width: 85%;
   background: rgba(26, 77, 77, 0.95);
   padding: 10px 0;
   overflow: hidden;
@@ -144,7 +144,7 @@ h2 {
   left: 0;
   width: 100%;
   padding: 0 2rem;
-  font-size: 1.4  rem;
+  font-size: 1.2rem;
   color: white;
   font-style: italic;
   opacity: 0;
@@ -198,27 +198,61 @@ h2 {
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
-  .quote-banner {
-    padding: 10px 0;
-  }
-  
-  .quote-item {
-    font-size: 0.85rem;
-    padding: 0 1rem;
+  body {
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+    padding-top: 80px;
   }
   
   main {
     width: 90vw;
     max-width: 90vw;
     min-width: auto;
-    padding-top: 60px;
+    margin-right: 0;
+    padding: 2rem 1.5rem;
+    padding-top: 2rem;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 1.3rem;
+  }
+  
+  .quote-banner {
+    width: 100%;
+    padding: 8px 0;
+  }
+  
+  .quote-item {
+    font-size: 0.75rem;
+    padding: 0 0.5rem;
   }
   
   .production-info p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   
   .production-info strong {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+  
+  .video-container video {
+    max-width: 100%;
+  }
+  
+  .date, .venue {
+    font-size: 1rem;
+  }
+  
+  .description {
+    font-size: 0.95rem;
   }
 }
