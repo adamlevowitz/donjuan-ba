@@ -196,9 +196,9 @@ h2 {
   font-weight: 700;
 }
 
-/* Mobile Responsive */
 @media (max-width: 768px) {
   body {
+    background-image: url('DJArt_mobile.png');
     background-position: center center;
     background-size: cover;
     justify-content: center;
@@ -243,16 +243,3 @@ h2 {
   .production-info strong {
     font-size: 1.2rem;
   }
-  
-  .video-container video {
-    max-width: 100%;
-  }
-  
-  .date, .venue {
-    font-size: 1rem;
-  }
-  
-  .description {
-    font-size: 0.95rem;
-  }
-}
